@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 24rem;
+    border-radius: 1rem;
+    border: solid .1rem black;
+    box-shadow: .4rem .4rem black;
+    padding: 1.4rem;
+   
+    text-align: center;
+}
+
+.main__image{
+    border-radius: .7rem;
+}
+
+.text__container{
+    text-align: left;
+}
+
+.tag{
+    display: inline-block;
+    background: hsl(47, 88%, 63%);
+    font-size: .9rem;
+    font-weight: 800;
+    padding: .3rem .7rem;
+    margin-top: 1rem;
+    border-radius: .2rem;
+}
+
+.description{
+    font-size: .9rem;
+    font-weight:500;
+    margin-top: .8rem;
+}
+
+.title{
+    font-weight: 800;
+    margin-top: 1.2rem;
+}
+
+.info{
+    font-weight: 400;
+    color: gray;
+    margin-top: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.avatar{
+    width: 2rem;
+}
+
+.name{
+    font-size: .9rem;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+
+.attribution{
+    margin-top: 3rem;
+    font-weight: 700;
+    background: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid .1rem black;
+    box-shadow: .4rem .4rem black;
+}
+@media (max-width: 443px) {
+    .container{
+        width: 23rem;
+    }
+
+    .attribution{
+        width: 22rem;
+    }
+}
